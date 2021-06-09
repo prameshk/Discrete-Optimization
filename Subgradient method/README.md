@@ -1,3 +1,3 @@
 ![](subgradient.PNG)
 
-![](subgradient.PNG)
+![](uncap.PNG)
