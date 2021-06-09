@@ -1,0 +1,8 @@
+\ Model _copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ R3: 2,6 + 5,6 + 8,6 = -1
+Bounds
+End
