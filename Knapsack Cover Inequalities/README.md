@@ -1,7 +1,3 @@
-# Subgradient Method
-![](subgradient.PNG)
+# Knapsack Cover Inequalities
 
-
-The following problem is solved using above algorithm:
-## Uncapacitated Facility Location Problem
-![](uncap.PNG)
+## 0-1 Knapsack set
