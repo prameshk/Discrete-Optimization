@@ -7,5 +7,9 @@ The alternate reformulation of the Knapsack set is in terms of cover inequalitie
 ![](cover.PNG)
 
 
+The cover inequality can be produced using the following optimization problem, where z_j denotes whether j denotes whether item j is included in the new cover and x_j_bar is the LP solution of the current knapsack problem.
+
 ![](coverprob.PNG)
 
+
+A lifting procedure is used to strengthen the produced cover inequalities and make them facet defining. 
