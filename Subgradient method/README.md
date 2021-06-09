@@ -1,1 +1,3 @@
 ![](subgradient.PNG)
+
+![](subgradient.PNG)
