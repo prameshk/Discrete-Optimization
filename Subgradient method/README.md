@@ -2,5 +2,6 @@
 ![](subgradient.PNG)
 
 
-The following problem is solved using above algorithm
+The following problem is solved using above algorithm:
+## Uncapacitated Facility Location
 ![](uncap.PNG)
