@@ -10,12 +10,8 @@ This is a benders decomposition implementation in Python using Gurobi for solvin
 *Constraints*: Assign one facility to each customer and assign a facility to a customer if and only if it is open.
 
 *Objective*: Maximize the profit of assigning and minimize the cost of opening new facilities.
-```
-MAXIMIZE      \sum_{i \in C} \sum_{j \in F} p_{ij} y_{ij} - \sum_{j \in F} c_j x_j
-s.t.          \sum_{j \in F} y_{ij} = 1, \forall i \in C
-              0 <= y_{ij} <= x_j, \forall i \in C, \forall j in F
-              x binary, y continuous
-```
+![](uncap.PNG)
+
 ## Details about various Scripts
 ### 1. bendersClassic.py
 The script generates random data for profit matrix and cost vector and program the classic Benders Decomposition. The explaination of some of the methods is given below:
