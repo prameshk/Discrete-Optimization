@@ -3,5 +3,5 @@
 
 
 The following problem is solved using above algorithm:
-## Uncapacitated Facility Location
+## Uncapacitated Facility Location Problem
 ![](uncap.PNG)
