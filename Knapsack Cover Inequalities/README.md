@@ -13,3 +13,4 @@ The cover inequality can be produced using the following optimization problem, w
 
 
 A lifting procedure is used to strengthen the produced cover inequalities and make them facet defining. 
+
