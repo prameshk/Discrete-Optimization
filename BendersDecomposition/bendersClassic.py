@@ -29,7 +29,7 @@ def generateFacilityLocationData(C, F):
 
 
 # Step 1: Initialize variables
-C = 1000
+C = 10
 F = 10
 
 
@@ -226,9 +226,9 @@ x_initial = np.zeros(F)
 x_initial[1] = 1
 x_initial[2] = 0
 start = time.time()
-xb, yb, obb = solveUFLBenders(100, x_initial, 1000, 1)
+#xb, yb, obb = solveUFLBenders(100, x_initial, 1000, 1)
 print("Benders took...", round(time.time() - start, 2), "seconds")
 start = time.time()
 obg, xg, yg = solveModelGurobi()
 print("Gurobi took...", round(time.time() - start, 2), "seconds")
-checkGurobiBendersSimilarity(xb, yb, xg, yg)
+#checkGurobiBendersSimilarity(xb, yb, xg, yg)
