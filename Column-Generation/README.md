@@ -1,4 +1,4 @@
-# Dantzig-Wolfe Decompositio solved using Column-Generation
+# Dantzig-Wolfe Decomposition solved using Column-Generation
 D-W is a reformulation of the original problem using extreme points and extreme rays. Usually, there are enormous number of extreme points and rays, the problem is solved using Column Generation.
 
 The codes are provided for the following problems:

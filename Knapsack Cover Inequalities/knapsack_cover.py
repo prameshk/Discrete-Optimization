@@ -62,7 +62,11 @@ def sequentialLifting(c, n, a, w, b): # Cover set, no. of items, value of items,
     m2 = Model()
     x_dash = {i:m2.addVar(lb=0.0, vtype=GRB.BINARY) for i in c}
     toBechecked = list(alpha.keys()); checked = [] # choosing the ordering of indices one-by-one and finding its coeffcient
+<<<<<<< HEAD
     while len(toBechecked) != 0:        
+=======
+    if len(toBechecked) != 0:        
+>>>>>>> 9d49a451d59d951300c7d22dc568d356a0f0c7ad
         i = toBechecked.pop(0); 
         x_dash[i] = m2.addVar(lb=0.0, vtype=GRB.BINARY) # including a variable.
         m2.update()

@@ -5,7 +5,7 @@ This is a benders decomposition implementation in Python using Gurobi for solvin
 ## Uncapacitated Facility Location Problem (UFL)
 *Given*: n facilities and m customers, profit matrix of assigning a customer to facility and cost matrix of opening a new facility.
 
-*Variables*: Which facilities to open (x binary) and which facility to assign to each customer (y continuous).
+*Variables*: Which facilities to open ($x$ binary) and which facility to assign to each customer (y continuous).
 
 *Constraints*: Assign one facility to each customer and assign a facility to a customer if and only if it is open.
 
